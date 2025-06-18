@@ -10,6 +10,7 @@ public class TestBase {
         Configuration.baseUrl = "https://github.com/";
         Configuration.browserSize = "1920x1080";
 //        Configuration.browser = "chrome";
+        Configuration.pageLoadStrategy = "eager";
         Configuration.timeout = 10000;
 //        Configuration.holdBrowserOpen = true;
     }
